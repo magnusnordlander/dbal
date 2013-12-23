@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phpunit>
     <php>
+        <ini name="date.timezone" value="Europe/Paris"/>
+    
         <var name="db_type" value="pdo_mysql"/>
         <var name="db_host" value="localhost" />
         <var name="db_username" value="travis" />
